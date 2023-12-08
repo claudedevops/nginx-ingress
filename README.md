@@ -26,6 +26,7 @@ $ git clone https://github.com/LandmakTechnology/nginx-ingress
 $ cd nginx-ingress/deployments
 ```
 ## 2. Create a Namespace And SA (Service Account)
+NB: The service account is for kubernetes security
 
 ```
  $ kubectl apply -f common/ns-and-sa.yaml
