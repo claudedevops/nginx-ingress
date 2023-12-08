@@ -94,7 +94,7 @@ $ nslookup <dns-name>
 
 ### 5.1 Define path based or host based routing rules for your services.
 
-### Single DNS Sample with host and servcie place holders
+### Single DNS Sample with host and service place holders
 ``` yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
@@ -116,7 +116,7 @@ spec:
               number: <servicePort>
 ``` 
 
-### Multiple DNS Sample with hosts and servcies place holders
+### Multiple DNS Sample with hosts and services place holders
 ``` yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
